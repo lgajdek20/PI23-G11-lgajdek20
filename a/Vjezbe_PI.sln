@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "a", "a\a.csproj", "{22300788-47BE-465D-BF9A-EE38DB7E3BA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluation_manager", "a\Evaluation_manager.csproj", "{22300788-47BE-465D-BF9A-EE38DB7E3BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testiranje_za_vj3", "Testiranje_za_vj3\Testiranje_za_vj3.csproj", "{26BE6014-F585-428F-98E1-A02FF5CD5267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{22300788-47BE-465D-BF9A-EE38DB7E3BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22300788-47BE-465D-BF9A-EE38DB7E3BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22300788-47BE-465D-BF9A-EE38DB7E3BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BE6014-F585-428F-98E1-A02FF5CD5267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BE6014-F585-428F-98E1-A02FF5CD5267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BE6014-F585-428F-98E1-A02FF5CD5267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BE6014-F585-428F-98E1-A02FF5CD5267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
