@@ -44,5 +44,16 @@ namespace Evaluation_Manager
                 frmEvaluation.ShowDialog();
             }
         }
+
+        private void dgvStudents_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var frmFinalReport = new FrmFinalReport();
+            frmFinalReport.ShowDialog();
+        }
     }
 }

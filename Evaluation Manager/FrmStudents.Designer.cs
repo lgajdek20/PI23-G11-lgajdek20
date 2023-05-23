@@ -30,6 +30,7 @@
         {
             this.dgvStudents = new System.Windows.Forms.DataGridView();
             this.btnEvaluateStudent = new System.Windows.Forms.Button();
+            this.btn_generateEvaluationReport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,6 +43,7 @@
             this.dgvStudents.RowTemplate.Height = 24;
             this.dgvStudents.Size = new System.Drawing.Size(629, 530);
             this.dgvStudents.TabIndex = 0;
+            this.dgvStudents.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudents_CellContentClick);
             // 
             // btnEvaluateStudent
             // 
@@ -54,11 +56,22 @@
             this.btnEvaluateStudent.UseVisualStyleBackColor = true;
             this.btnEvaluateStudent.Click += new System.EventHandler(this.btnEvaluateStudent_Click);
             // 
+            // btn_generateEvaluationReport
+            // 
+            this.btn_generateEvaluationReport.Location = new System.Drawing.Point(338, 557);
+            this.btn_generateEvaluationReport.Name = "btn_generateEvaluationReport";
+            this.btn_generateEvaluationReport.Size = new System.Drawing.Size(144, 37);
+            this.btn_generateEvaluationReport.TabIndex = 3;
+            this.btn_generateEvaluationReport.Text = "Generiraj izvještaj";
+            this.btn_generateEvaluationReport.UseVisualStyleBackColor = true;
+            this.btn_generateEvaluationReport.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(646, 607);
+            this.Controls.Add(this.btn_generateEvaluationReport);
             this.Controls.Add(this.btnEvaluateStudent);
             this.Controls.Add(this.dgvStudents);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -74,5 +87,6 @@
 
         private System.Windows.Forms.DataGridView dgvStudents;
         private System.Windows.Forms.Button btnEvaluateStudent;
+        private System.Windows.Forms.Button btn_generateEvaluationReport;
     }
 }

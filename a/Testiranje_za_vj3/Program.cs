@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace Testiranje_za_vj3
         [STAThread]
         static void Main()
         {
+            DB.SetConfiguration("IPS23_lgajdek20", "lgajdek20", "8F8!49LQ");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frm_pregled_zahtjeva_CIP());
